@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerec-Website-by-who-am-i</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- FontAwesome cdn -->
+    <script src="https://kit.fontawesome.com/ceebce0d9a.js" crossorigin="anonymous"></script>
+
+    <!----------        GOOGLE FONTS  -------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;400;500;600;700;800&family=Pacifico&family=Poppins:wght@100&family=Roboto:wght@300&family=Tiro+Gurmukhi:ital@1&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo arrange-left width-25">
+                <h1><span>E</span> <span>Com</span></h1>
+            </div>
+            <div class="search-product arrange-left width-50">
+                <input type="text" placeholder="Search for Product" />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="selected-product arrange-left width-25">
+                <button class="common-btn">
+                    <span> <i class="fa-solid fa-cart-arrow-down"></i> 0</span>
+                </button>
+                <button class="common-btn">
+                    <span> <i class="fa-solid fa-heart"></i> 0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="shop-menu">
+        <ul class="left-menu-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li class="dropdown-head">
+            <a href="#"
+              >Product Details
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown">
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Checkout</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="right-menu-list">
+          <li><a href="/login.html">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+    <!-- <<<<<<<<<<<<<<<<<<HEADER SECTION CLOSE>>>>>>>>>>>>> -->
+    <!-- <<<<<<<SECOND SECTION>>>>>>>>>>>>> -->
+    <div class="full-banner-wrapper">
+        <div class="shop-header">
+            <h1>Women Dress Collection</h1>
+            <h3>-- Our Shop --</h3>
+        </div>
+
+        <div class="wrapper next-row arrange-little">
+            <div class="sort-options">
+                <select name="" id="">
+                    <option value="1">By Name</option>
+                    <option value="2">By Rating</option>
+                    <option value="3">By Latest</option>
+                </select>
+            </div>
+            <div class="width-25 arrange-left">
+                <h3 id="custom-h3">Price Filter</h3>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-all">
+                    <label class="custom-control-label" for="price-all">All Price</label>
+                    <span class="filter-prod-count">1000</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-">
+                    <label class="custom-control-label" for="price-">$0 - $100</label>
+                    <span class="filter-prod-count">114</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-2">
+                    <label class="custom-control-label" for="price-2">$100 - $300</label>
+                    <span class="filter-prod-count">1750</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-3">
+                    <label class="custom-control-label" for="price-3">$100 - $500</label>
+                    <span class="filter-prod-count">105</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-4">
+                    <label class="custom-control-label" for="price-4">$350 - $1500</label>
+                    <span class="filter-prod-count">147</span>
+                </div>
+                <h3 id="custom-h3">Filter By color</h3>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="color-all">
+                    <label class="custom-control-label" for="color-all">All Price</label>
+                    <span class="filter-prod-count">1000</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-12">
+                    <label class="custom-control-label" for="price-12">$0 - $100</label>
+                    <span class="filter-prod-count">114</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-21">
+                    <label class="custom-control-label" for="price-21">$100 - $300</label>
+                    <span class="filter-prod-count">1750</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-31">
+                    <label class="custom-control-label" for="price-31">$100 - $500</label>
+                    <span class="filter-prod-count">105</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-41">
+                    <label class="custom-control-label" for="price-41">$350 - $1500</label>
+                    <span class="filter-prod-count">147</span>
+                </div>
+                <h3 id="custom-h3">Filter By Brand</h3>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="brand-all">
+                    <label class="custom-control-label" for="brand-all">All Price</label>
+                    <span class="filter-prod-count">1000</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-410">
+                    <label class="custom-control-label" for="price-410">$0 - $100</label>
+                    <span class="filter-prod-count">114</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-420">
+                    <label class="custom-control-label" for="price-420">$100 - $300</label>
+                    <span class="filter-prod-count">1750</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-430">
+                    <label class="custom-control-label" for="price-430">$100 - $500</label>
+                    <span class="filter-prod-count">105</span>
+                </div>
+                <div class="custom-control">
+                    <input type="checkbox" class="custom-control-input" checked id="price-444">
+                    <label class="custom-control-label" for="price-444">$350 - $1500</label>
+                    <span class="filter-prod-count">147</span>
+                </div>
+            </div>
+            <div class="width-75 arrange-left">
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-33 arrange-left">
+                    <div class="cart">
+                        <div>
+                            <img src="/img/product-1.jpg" alt="">
+                        </div>
+                        <div class="cart-details">
+                            <h6>Women's Fashion Wear</h6>
+                            <div class="cart-price">
+                                <h6 class="current-price">$125.00</h6>
+                                <h6 class="last-price">$143.00</h6>
+
+                            </div>
+                        </div>
+                        <div class="cart-footer">
+                            <a href="#"><i class="fa-solid fa-eye"></i>View Details</a>
+                            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <<<<<<<<<<<<<<<<FOOTER __SECTION>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+    <section class="wrapper next-row ">
+        <div class="footer">
+            <div class="width-25 arrange-left">
+                <div class="logo ">
+                    <h1><span>E</span><span>Com</span></h1>
+                </div>
+                <p class="footer-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ab.
+                </p>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa fa-map-marker-alt"></i>
+                        143 Street,Duabi
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        info@gmail.com
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        +0123 456 789
+                    </li>
+                </ul>
+            </div>
+            <div class="width-25 quick-links arrange-left">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Our Shops</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Shop Details</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Checkout</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>About us</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Cart</span></a></li>
+                </ul>
+            </div>
+            <div class="width-25 quick-links arrange-left">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Home</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Our Shops</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Shop Details</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Checkout</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>About us</span></a></li>
+                    <li><a href=""><i class="fa fa-angle-right"></i><span>Cart</span></a></li>
+                </ul>
+            </div>
+            <div class="width-25 arrange-left">
+                <h3>News Letter</h3>
+                <input type="text" class="footer-input" placeholder="Enter Name">
+                <input type="text" class="footer-input" placeholder="Enter Email">
+                <button class="footer-btn">Subscribe</button>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="copy-right">
+        <div>
+            &copy;<b>Code By Who-am-i</b>. All Rights Reserved. Designed By <span class="color-who">WHO</span><span
+                id="color-name">-AM</span><span class="color-who">-I</span>
+        </div>
+        <img src="/img/payments.png" alt="">
+    </div>
+    </div>
+</body>
+
+</html>
